@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Món Ăn | Mèo Béo</title>
+    <link rel="stylesheet" href="tc.css">
+    <link rel="stylesheet" href="ctsp.css">
+
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="tc.html" class="logo">
+            <img src="z7575291813301_8459929d381e46478ba97800b7415cdb.jpg" alt="Mèo Béo"
+                style="height: 50px; border-radius: 50%;">
+        </a>
+        <div class="user-menu">
+            <a href="giohang.html" style="color: white; text-decoration: none;" class="cart-icon">🛒 Giỏ hàng</a>
+        </div>
+    </header>
+
+    <main class="container" style="display: block; max-width: 1100px; margin: 0 auto;">
+
+        <div class="detail-wrapper" id="detail-container">
+            <div class="detail-image-box">
+                <span class="badge-hot">🔥 Bán chạy</span>
+                <img id="detail-img" src="" alt="Hình ảnh món ăn">
+            </div>
+
+            <div class="detail-info-box">
+                <span class="detail-category" id="detail-category">Danh mục</span>
+                <h1 class="detail-title" id="detail-name">Đang tải...</h1>
+                <div class="detail-rating">
+                    <span id="detail-rate">5.0</span> ⭐ (<span id="detail-reviews">0</span> Đánh giá)
+                </div>
+
+                <p class="detail-desc">Món ăn được chế biến từ nguyên liệu tươi ngon nhất trong ngày, tẩm ướp gia vị độc
+                    quyền của Tiệm Mèo Béo mang lại hương vị đậm đà khó quên. Ăn kèm tương ớt và tương cà miễn phí.</p>
+
+                <div class="detail-price-box">
+                    <div class="detail-price" id="detail-price">0đ</div>
+
+                    <div class="quantity-control">
+                        <span style="color: #666; font-weight: bold; margin-right: 5px;">Số lượng:</span>
+                        <button class="qty-btn" id="btn-minus">-</button>
+                        <input type="text" class="qty-input" id="qty-input" value="1" readonly>
+                        <button class="qty-btn" id="btn-plus">+</button>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-add-cart">🛒 Thêm Vào Giỏ</button>
+                    <button class="btn-buy-now">💳 Mua Ngay</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="suggested-section">
+            <h2>🔥 Món Ngon Đi Kèm</h2>
+            <div class="suggested-grid" id="suggested-grid">
+            </div>
+        </div>
+
+    </main>
+
+    <script src="data.js"></script>
+    <script src="ctsp.js"></script>
+</body>
+
+</html>

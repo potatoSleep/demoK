@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện Cửa hàng</title>
+    <link rel="stylesheet" href="tc.css">
+    <script src="tc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <a href="tc.html" class="logo">
+            <img src="z7575291813301_8459929d381e46478ba97800b7415cdb.jpg" alt="Mèo Béo Ăn Gà Rán">
+        </a>
+        <div class="search-bar">
+            <input type="text" placeholder="Tìm kiếm...">
+        </div>
+        <div class="user-menu">
+            <div class="cart-icon"><a href="giohang.html">🛒</a></div>
+            <div class="user-name">Tên</div>
+            <div class="user-avatar">👤</div>
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <h3>Danh mục món ăn</h3>
+            <ul id="category-list">
+                <li><a href="#" data-category="All" style="color: #D32F2F; font-weight: bold;">Tất cả món</a></li>
+                <li><a href="#" data-category="Gà Rán">🍗 Gà Rán</a></li>
+                <li><a href="#" data-category="Ăn Vặt">🍟 Ăn Vặt</a></li>
+                <li><a href="#" data-category="Đồ Ăn Chính">🍔 Đồ Ăn Chính</a></li>
+                <li><a href="#" data-category="Đồ Uống">🥤 Đồ Uống</a></li>
+            </ul>
+            <a href="#" class="view-more">xem thêm</a>
+        </aside>
+
+        <section class="product-grid" id="product-grid">
+        </section>
+    </main>
+    <script src="data.js"></script>
+
+    <script src="tc.js"></script>
+
+</body>
+
+</html>
